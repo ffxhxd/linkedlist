@@ -44,16 +44,7 @@ void create(int A[],int n)
 
 
 }
-	void RDisplay(struct Node *p)
-{
-	if(p!=NULL)
-{
-	RDisplay(p->next);
-	
-	printf("%d ",p->data);
-}
 
-}
 	int main()
 {
 	
